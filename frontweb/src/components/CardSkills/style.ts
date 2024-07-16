@@ -21,7 +21,7 @@ export const CardSkillsStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom : 10px;
+    margin-bottom: 10px;
   }
 
   .card-skills-image-container {
@@ -32,7 +32,7 @@ export const CardSkillsStyled = styled.div`
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1rem;
     font-wheight: bold;
     color: ${({ theme }) => theme.colors.white};
     margin-right: 10px;
@@ -64,8 +64,10 @@ export const CardSkillsStyled = styled.div`
       width: 280px;
       height: 180px;
     }
-      h1 {
-        font-size: 2rem;
-      }
   }
+
+   @media ${breakpoints.lg} {
+    h1 {
+      font-size: 1rem;
+    }
 `;

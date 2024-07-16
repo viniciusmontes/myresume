@@ -1,4 +1,5 @@
-import { FaGithub, FaJava, FaLinkedin, FaReact } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaReact } from "react-icons/fa";
+import { IoCodeSlash } from "react-icons/io5";
 import { SiSpring } from "react-icons/si";
 
 import PrintEstoque from "../../assets/images/print-estoque.png";
@@ -53,7 +54,7 @@ export default function Header() {
           <CardSkills
             cardSkills={{
               name: "Fullstack",
-              icon: <FaJava size={32} />,
+              icon: <IoCodeSlash size={32} />,
               description: `Profissional em projetos full stack, com experiência tanto em backend quanto frontend, utilizando Java e ReactJS. Habilidades em criação de CRUD, integração com APIs, autenticação e autorização, testes automatizados, e implantação contínua.`,
               image: Estoque,
               poster: PrintEstoque,
